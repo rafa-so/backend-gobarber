@@ -24,6 +24,9 @@
     ],
     "rules": {
       "@typescript-eslint/camelcase": "off",
+      "@typescript-eslint/no-unsued-vars": ["error", {
+        "argsIgnorePattern": "_"
+      }],
       "import/extensions": [
         "error",
         "ignorePackages",
